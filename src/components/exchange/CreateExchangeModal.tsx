@@ -18,7 +18,7 @@ export const CreateExchangeModal: React.FC<CreateExchangeModalProps> = ({ isOpen
   const [wantedItems, setWantedItems] = useState('');
   const [description, setDescription] = useState('');
   const [selectedImagePreset, setSelectedImagePreset] = useState(
-    '/src/assets/images/student_textbooks_calculators_1794379979473.jpg'
+    '/images/student_textbooks_calculators.jpg'
   );
 
   if (!isOpen) return null;
@@ -26,11 +26,11 @@ export const CreateExchangeModal: React.FC<CreateExchangeModalProps> = ({ isOpen
   const presets = [
     {
       label: 'Textbooks & Study Material',
-      url: '/src/assets/images/student_textbooks_calculators_1794379979473.jpg',
+      url: '/images/student_textbooks_calculators.jpg',
     },
     {
       label: 'Electronics & Tech Gear',
-      url: '/src/assets/images/campus_tech_electronics_1794379979461.jpg',
+      url: '/images/campus_tech_electronics.jpg',
     },
     {
       label: 'Stationery & Drawing Kit',
@@ -52,7 +52,7 @@ export const CreateExchangeModal: React.FC<CreateExchangeModalProps> = ({ isOpen
       condition,
       wantedItems: wantedItems.trim(),
       description: description.trim(),
-      images: [selectedImagePreset, '/src/assets/images/student_exchange_handshake_1794379980425.jpg'],
+      images: [selectedImagePreset, '/images/student_exchange_handshake.jpg'],
       college: currentUser.college,
     });
 

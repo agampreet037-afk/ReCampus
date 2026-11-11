@@ -111,17 +111,25 @@ interface AppContextType {
 const AppContext = createContext<AppContextType | undefined>(undefined);
 
 const STORAGE_KEYS = {
-  USER: 'recampus_user_v1',
-  CAMPUS: 'recampus_campus_v1',
-  PRODUCTS: 'recampus_products_v1',
-  EXCHANGES: 'recampus_exchanges_v1',
-  WISHLIST: 'recampus_wishlist_v1',
-  CART: 'recampus_cart_v1',
-  ORDERS: 'recampus_orders_v1',
-  CONVERSATIONS: 'recampus_conversations_v1',
-  MESSAGES: 'recampus_messages_v1',
-  REQUESTS: 'recampus_requests_v1',
-  OFFERS: 'recampus_offers_v1',
+  USER: 'recampus_user_v2',
+  CAMPUS: 'recampus_campus_v2',
+  PRODUCTS: 'recampus_products_v2',
+  EXCHANGES: 'recampus_exchanges_v2',
+  WISHLIST: 'recampus_wishlist_v2',
+  CART: 'recampus_cart_v2',
+  ORDERS: 'recampus_orders_v2',
+  CONVERSATIONS: 'recampus_conversations_v2',
+  MESSAGES: 'recampus_messages_v2',
+  REQUESTS: 'recampus_requests_v2',
+  OFFERS: 'recampus_offers_v2',
+};
+
+const normalizeImagePath = (path: string) => {
+  if (path.includes('hero_campus_marketplace')) return '/images/hero_campus_marketplace.jpg';
+  if (path.includes('student_textbooks_calculators')) return '/images/student_textbooks_calculators.jpg';
+  if (path.includes('campus_tech_electronics')) return '/images/campus_tech_electronics.jpg';
+  if (path.includes('student_exchange_handshake')) return '/images/student_exchange_handshake.jpg';
+  return path;
 };
 
 export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -147,7 +155,14 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [products, setProducts] = useState<Product[]>(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.PRODUCTS);
-      return saved ? JSON.parse(saved) : MOCK_PRODUCTS;
+      if (saved) {
+        const parsed: Product[] = JSON.parse(saved);
+        return parsed.map((p) => ({
+          ...p,
+          images: p.images.map(normalizeImagePath),
+        }));
+      }
+      return MOCK_PRODUCTS;
     } catch {
       return MOCK_PRODUCTS;
     }
@@ -157,7 +172,14 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [exchangeListings, setExchangeListings] = useState<ExchangeListing[]>(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.EXCHANGES);
-      return saved ? JSON.parse(saved) : MOCK_EXCHANGES;
+      if (saved) {
+        const parsed: ExchangeListing[] = JSON.parse(saved);
+        return parsed.map((e) => ({
+          ...e,
+          images: e.images.map(normalizeImagePath),
+        }));
+      }
+      return MOCK_EXCHANGES;
     } catch {
       return MOCK_EXCHANGES;
     }

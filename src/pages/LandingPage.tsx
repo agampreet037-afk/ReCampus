@@ -165,7 +165,7 @@ export const LandingPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="relative rounded-3xl overflow-hidden border border-emerald-950/10 shadow-xl bg-slate-100 group">
                 <img
-                  src="/src/assets/images/hero_campus_marketplace_1794379978338.jpg"
+                  src="/images/hero_campus_marketplace.jpg"
                   alt="College students connecting and exchanging books on campus lawn"
                   referrerPolicy="no-referrer"
                   className="w-full h-[360px] sm:h-[440px] object-cover group-hover:scale-102 transition-transform duration-500"
@@ -377,7 +377,7 @@ export const LandingPage: React.FC = () => {
             <div className="lg:col-span-5">
               <div className="rounded-2xl overflow-hidden shadow-lg border border-emerald-900/10">
                 <img
-                  src="/src/assets/images/student_exchange_handshake_1794379980425.jpg"
+                  src="/images/student_exchange_handshake.jpg"
                   alt="Students trading textbooks in university student lounge"
                   referrerPolicy="no-referrer"
                   className="w-full h-64 object-cover"

@@ -24,18 +24,18 @@ export const SellPage: React.FC = () => {
   const [description, setDescription] = useState('');
   const [pickupSpot, setPickupSpot] = useState('Central Library Foyer or North Lawn');
   const [selectedImagePreset, setSelectedImagePreset] = useState(
-    '/src/assets/images/student_textbooks_calculators_1794379979473.jpg'
+    '/images/student_textbooks_calculators.jpg'
   );
   const [customImagePreview, setCustomImagePreview] = useState<string | null>(null);
 
   const presets = [
     {
       label: 'Textbooks & Study Notes',
-      url: '/src/assets/images/student_textbooks_calculators_1794379979473.jpg',
+      url: '/images/student_textbooks_calculators.jpg',
     },
     {
       label: 'Electronics & Dorm Tech',
-      url: '/src/assets/images/campus_tech_electronics_1794379979461.jpg',
+      url: '/images/campus_tech_electronics.jpg',
     },
     {
       label: 'Engineering Graphics & Drawing',

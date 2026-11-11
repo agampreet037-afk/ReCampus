@@ -73,7 +73,7 @@ export const ExchangePage: React.FC = () => {
         {/* Decorative corner graphic */}
         <div className="absolute right-0 bottom-0 top-0 w-1/3 hidden lg:block opacity-25 pointer-events-none">
           <img
-            src="/src/assets/images/student_exchange_handshake_1794379980425.jpg"
+            src="/images/student_exchange_handshake.jpg"
             alt=""
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover"

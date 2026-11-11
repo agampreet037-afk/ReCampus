@@ -182,7 +182,7 @@ export const MOCK_PRODUCTS: Product[] = [
     discountPercentage: 72,
     condition: 'Good',
     images: [
-      '/src/assets/images/student_textbooks_calculators_1794379979473.jpg',
+      '/images/student_textbooks_calculators.jpg',
       'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80',
     ],
     sellerId: 'student-1',
@@ -204,7 +204,7 @@ export const MOCK_PRODUCTS: Product[] = [
     discountPercentage: 68,
     condition: 'Like New',
     images: [
-      '/src/assets/images/student_textbooks_calculators_1794379979473.jpg',
+      '/images/student_textbooks_calculators.jpg',
       'https://images.unsplash.com/photo-1594980596870-8aa52a78d8cd?auto=format&fit=crop&w=600&q=80',
     ],
     sellerId: 'student-2',
@@ -248,7 +248,7 @@ export const MOCK_PRODUCTS: Product[] = [
     discountPercentage: 71,
     condition: 'Good',
     images: [
-      '/src/assets/images/campus_tech_electronics_1794379979461.jpg',
+      '/images/campus_tech_electronics.jpg',
       'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80',
     ],
     sellerId: 'student-4',
@@ -271,7 +271,7 @@ export const MOCK_PRODUCTS: Product[] = [
     condition: 'Good',
     images: [
       'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=600&q=80',
-      '/src/assets/images/student_textbooks_calculators_1794379979473.jpg',
+      '/images/student_textbooks_calculators.jpg',
     ],
     sellerId: 'student-6',
     sellerName: 'Arjun Nair',
@@ -292,7 +292,7 @@ export const MOCK_PRODUCTS: Product[] = [
     discountPercentage: 75,
     condition: 'Good',
     images: [
-      '/src/assets/images/student_textbooks_calculators_1794379979473.jpg',
+      '/images/student_textbooks_calculators.jpg',
       'https://images.unsplash.com/photo-1532012164546-f432f2e3777f?auto=format&fit=crop&w=600&q=80',
     ],
     sellerId: 'student-9',
@@ -336,7 +336,7 @@ export const MOCK_PRODUCTS: Product[] = [
     discountPercentage: 74,
     condition: 'Like New',
     images: [
-      '/src/assets/images/campus_tech_electronics_1794379979461.jpg',
+      '/images/campus_tech_electronics.jpg',
       'https://images.unsplash.com/photo-1534349762230-e0cadf78f5da?auto=format&fit=crop&w=600&q=80',
     ],
     sellerId: 'student-4',
@@ -358,7 +358,7 @@ export const MOCK_PRODUCTS: Product[] = [
     discountPercentage: 68,
     condition: 'Good',
     images: [
-      '/src/assets/images/campus_tech_electronics_1794379979461.jpg',
+      '/images/campus_tech_electronics.jpg',
       'https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=600&q=80',
     ],
     sellerId: 'student-6',
@@ -380,7 +380,7 @@ export const MOCK_PRODUCTS: Product[] = [
     discountPercentage: 74,
     condition: 'Good',
     images: [
-      '/src/assets/images/campus_tech_electronics_1794379979461.jpg',
+      '/images/campus_tech_electronics.jpg',
       'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80',
     ],
     sellerId: 'student-4',
@@ -446,7 +446,7 @@ export const MOCK_PRODUCTS: Product[] = [
     discountPercentage: 72,
     condition: 'Good',
     images: [
-      '/src/assets/images/student_textbooks_calculators_1794379979473.jpg',
+      '/images/student_textbooks_calculators.jpg',
       'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80',
     ],
     sellerId: 'student-1',
@@ -578,7 +578,7 @@ export const MOCK_PRODUCTS: Product[] = [
     discountPercentage: 72,
     condition: 'Fair',
     images: [
-      '/src/assets/images/student_textbooks_calculators_1794379979473.jpg',
+      '/images/student_textbooks_calculators.jpg',
       'https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80',
     ],
     sellerId: 'student-3',
@@ -645,7 +645,7 @@ export const MOCK_PRODUCTS: Product[] = [
     condition: 'Like New',
     images: [
       'https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=600&q=80',
-      '/src/assets/images/campus_tech_electronics_1794379979461.jpg',
+      '/images/campus_tech_electronics.jpg',
     ],
     sellerId: 'student-5',
     sellerName: 'Sneha Patel',
@@ -666,7 +666,7 @@ export const MOCK_PRODUCTS: Product[] = [
     discountPercentage: 69,
     condition: 'Good',
     images: [
-      '/src/assets/images/student_textbooks_calculators_1794379979473.jpg',
+      '/images/student_textbooks_calculators.jpg',
       'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80',
     ],
     sellerId: 'student-9',
@@ -689,7 +689,7 @@ export const MOCK_PRODUCTS: Product[] = [
     condition: 'Like New',
     images: [
       'https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=600&q=80',
-      '/src/assets/images/campus_tech_electronics_1794379979461.jpg',
+      '/images/campus_tech_electronics.jpg',
     ],
     sellerId: 'student-8',
     sellerName: 'Devansh Roy',
@@ -733,7 +733,7 @@ export const MOCK_PRODUCTS: Product[] = [
     condition: 'Like New',
     images: [
       'https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=600&q=80',
-      '/src/assets/images/campus_tech_electronics_1794379979461.jpg',
+      '/images/campus_tech_electronics.jpg',
     ],
     sellerId: 'student-4',
     sellerName: 'Kabir Verma',
@@ -755,7 +755,7 @@ export const MOCK_PRODUCTS: Product[] = [
     condition: 'Like New',
     images: [
       'https://images.unsplash.com/photo-1585336261026-c70e30129a00?auto=format&fit=crop&w=600&q=80',
-      '/src/assets/images/student_textbooks_calculators_1794379979473.jpg',
+      '/images/student_textbooks_calculators.jpg',
     ],
     sellerId: 'student-7',
     sellerName: 'Meera Iyer',
@@ -776,7 +776,7 @@ export const MOCK_PRODUCTS: Product[] = [
     discountPercentage: 71,
     condition: 'Like New',
     images: [
-      '/src/assets/images/campus_tech_electronics_1794379979461.jpg',
+      '/images/campus_tech_electronics.jpg',
       'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=600&q=80',
     ],
     sellerId: 'student-1',
@@ -798,8 +798,8 @@ export const MOCK_EXCHANGES: ExchangeListing[] = [
     category: 'Textbooks and Academic Books',
     condition: 'Like New',
     images: [
-      '/src/assets/images/student_textbooks_calculators_1794379979473.jpg',
-      '/src/assets/images/student_exchange_handshake_1794379980425.jpg',
+      '/images/student_textbooks_calculators.jpg',
+      '/images/student_exchange_handshake.jpg',
     ],
     wantedItems: 'Python Crash Course / Java The Complete Reference / Data Structures in C++',
     sellerId: 'student-1',
@@ -816,7 +816,7 @@ export const MOCK_EXCHANGES: ExchangeListing[] = [
     condition: 'Good',
     images: [
       'https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=600&q=80',
-      '/src/assets/images/student_exchange_handshake_1794379980425.jpg',
+      '/images/student_exchange_handshake.jpg',
     ],
     wantedItems: 'Cricket bat (size 6/full) or batting gloves in decent condition',
     sellerId: 'student-2',
@@ -833,7 +833,7 @@ export const MOCK_EXCHANGES: ExchangeListing[] = [
     condition: 'Good',
     images: [
       'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=600&q=80',
-      '/src/assets/images/student_exchange_handshake_1794379980425.jpg',
+      '/images/student_exchange_handshake.jpg',
     ],
     wantedItems: 'White lab coat (Size M or L) + basic dissection instruments',
     sellerId: 'student-6',
@@ -850,7 +850,7 @@ export const MOCK_EXCHANGES: ExchangeListing[] = [
     condition: 'Like New',
     images: [
       'https://images.unsplash.com/photo-1588702547919-26089e690ecc?auto=format&fit=crop&w=600&q=80',
-      '/src/assets/images/student_exchange_handshake_1794379980425.jpg',
+      '/images/student_exchange_handshake.jpg',
     ],
     wantedItems: '60% or TKL Mechanical Keyboard (USB-C)',
     sellerId: 'student-7',
@@ -866,8 +866,8 @@ export const MOCK_EXCHANGES: ExchangeListing[] = [
     category: 'Textbooks and Academic Books',
     condition: 'Good',
     images: [
-      '/src/assets/images/student_textbooks_calculators_1794379979473.jpg',
-      '/src/assets/images/student_exchange_handshake_1794379980425.jpg',
+      '/images/student_textbooks_calculators.jpg',
+      '/images/student_exchange_handshake.jpg',
     ],
     wantedItems: 'Molecular Biology / Genetics handbook or lecture notes bundle',
     sellerId: 'student-3',
@@ -884,7 +884,7 @@ export const MOCK_EXCHANGES: ExchangeListing[] = [
     condition: 'Good',
     images: [
       'https://images.unsplash.com/photo-1594213114663-ddf4f24cf372?auto=format&fit=crop&w=600&q=80',
-      '/src/assets/images/campus_tech_electronics_1794379979461.jpg',
+      '/images/campus_tech_electronics.jpg',
     ],
     wantedItems: 'Clip-on / clamp LED study lamp with USB cable',
     sellerId: 'student-8',
@@ -900,8 +900,8 @@ export const MOCK_EXCHANGES: ExchangeListing[] = [
     category: 'Textbooks and Academic Books',
     condition: 'Good',
     images: [
-      '/src/assets/images/student_textbooks_calculators_1794379979473.jpg',
-      '/src/assets/images/student_exchange_handshake_1794379980425.jpg',
+      '/images/student_textbooks_calculators.jpg',
+      '/images/student_exchange_handshake.jpg',
     ],
     wantedItems: 'Fundamentals of Database Systems (Elmasri & Navathe)',
     sellerId: 'student-9',
@@ -918,7 +918,7 @@ export const MOCK_EXCHANGES: ExchangeListing[] = [
     condition: 'Like New',
     images: [
       'https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&w=600&q=80',
-      '/src/assets/images/student_exchange_handshake_1794379980425.jpg',
+      '/images/student_exchange_handshake.jpg',
     ],
     wantedItems: 'ESP32 development board or Raspberry Pi Zero with headers',
     sellerId: 'student-10',
