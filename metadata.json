@@ -1,0 +1,6 @@
+{
+  "name": "ReCampus – Student Marketplace",
+  "description": "Buy, sell, and exchange pre-owned college essentials within your campus community.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
